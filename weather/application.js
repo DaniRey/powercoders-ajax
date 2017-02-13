@@ -6,7 +6,7 @@ function Weather(weather) {
   this.forecasts = function(){
     var text = "";
     for(forecast of weather.data.forecasts) {
-      text += "<p>on " + forecast.date + " the weather condition is " + forecast.condition + "</p>";
+      text += "<li>on " + forecast.date + " the weather condition is " + forecast.condition + "</li>";
     }
     return text;
   }
