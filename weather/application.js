@@ -14,7 +14,7 @@ function Weather(weather) {
 
 $(document).ready(function() {
   $.ajax(
-    'http://2016.jungfrau.ch/api/weather/v01/average/jungfraujoch',
+    'https://www.jungfrau.ch/api/weather/v01/average/jungfraujoch',
     {
       dataType: 'json',
       contentType: 'application/json',
